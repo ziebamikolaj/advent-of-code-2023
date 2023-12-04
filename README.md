@@ -7,7 +7,7 @@
 
 📊 Progress: **4 out of 25 challenges completed!**
 
-![Progress](https://progress-bar.dev/16,scale=100,title=Completed,color=green)
+![Progress](https://progress-bar.dev/16/?title=Completed&width=300)
 
 | Day | Status | Solution |
 |:---:|:------:|:--------:|
