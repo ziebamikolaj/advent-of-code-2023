@@ -9,7 +9,7 @@ readme_template = """
 
 📊 Progress: **{} out of 25 challenges completed!**
 
-![Progress](https://progress-bar.dev/{},scale=100,title=Completed,color=green)
+![Progress](https://progress-bar.dev/{}/?title=Completed&width=300)
 
 | Day | Status | Solution |
 |:---:|:------:|:--------:|
