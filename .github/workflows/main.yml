@@ -31,4 +31,4 @@ jobs:
         git config --global user.email 'ziebamikolaj03@gmail.com'
         git add README.md
         git commit -m "Update README with progress"
-        git push https://github.com/${{ github.repository_owner }}/${{ github.repository }}.git HEAD:${{ github.ref }}
+        git push https://github.com/ziebamikolaj/advent-of-code-2023.git HEAD:${{ github.ref }}
