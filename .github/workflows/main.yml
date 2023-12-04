@@ -31,4 +31,4 @@ jobs:
         git config --global user.email 'ziebamikolaj03@gmail.com'
         git add README.md
         git commit -m "Update README with progress"
-        git push https://${GH_PAT}@${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git HEAD:${GITHUB_REF_NAME}
+        git push ${GH_PAT}@${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git HEAD:${GITHUB_REF_NAME}
