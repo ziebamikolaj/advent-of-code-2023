@@ -20,7 +20,7 @@ jobs:
 
       - name: Run script to update README
         run: |
-          python path/to/your/script.py
+          python /updateReadme.py
 
       - name: Commit and push if README changed
         run: |
