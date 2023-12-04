@@ -25,9 +25,9 @@ jobs:
 
     - name: Commit and push if changes
       run: |
-        git config --global user.name 'Mikołaj Zięba'
-        git config --global user.email 'ziebamikolaj03@gmail.com'
-        git add -A
+        git config user.name 'ziebamikolaj'
+        git config user.email 'ziebamikolaj03@gmail.com'
+        git add *
         git diff --staged --quiet || (git commit -m "Update README with Python script changes"; git push https://${GH_PAT}@github.com/ziebamikolaj/advent-of-code-2023.git)
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
