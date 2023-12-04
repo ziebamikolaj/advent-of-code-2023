@@ -32,4 +32,3 @@ jobs:
         git add README.md
         git commit -m "Update README with progress"
         git push https://${GH_PAT}@${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git HEAD:${GITHUB_REF_NAME}
-
