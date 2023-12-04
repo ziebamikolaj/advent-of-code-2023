@@ -11,10 +11,10 @@
 
 | Day | Status | Solution |
 |:---:|:------:|:--------:|
-| Day 1 | ![Completed](https://img.shields.io/badge/Day%201-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code/blob/main/Day1.cs) |
-| Day 2 | ![Completed](https://img.shields.io/badge/Day%202-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code/blob/main/Day2.cs) |
-| Day 3 | ![Completed](https://img.shields.io/badge/Day%203-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code/blob/main/Day3.cs) |
-| Day 4 | ![Completed](https://img.shields.io/badge/Day%204-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code/blob/main/Day4.cs) |
+| Day 1 | ![Completed](https://img.shields.io/badge/Day%201-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day1.cs) |
+| Day 2 | ![Completed](https://img.shields.io/badge/Day%202-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day2.cs) |
+| Day 3 | ![Completed](https://img.shields.io/badge/Day%203-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day3.cs) |
+| Day 4 | ![Completed](https://img.shields.io/badge/Day%204-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day4.cs) |
 | Day 5 | ![Incomplete](https://img.shields.io/badge/Day%205-Incomplete-red) | ⏳ In Progress |
 | Day 6 | ![Incomplete](https://img.shields.io/badge/Day%206-Incomplete-red) | ⏳ In Progress |
 | Day 7 | ![Incomplete](https://img.shields.io/badge/Day%207-Incomplete-red) | ⏳ In Progress |
