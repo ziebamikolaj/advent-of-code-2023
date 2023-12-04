@@ -24,9 +24,12 @@ jobs:
       run: python updateReadme.py
 
     - name: Commit and Push changes
+      env:
+        GH_PAT: ${{ secrets.GH_PAT }}  # Use the secret token
       run: |
         git config --global user.name 'ziebamikolaj'
         git config --global user.email 'ziebamikolaj03@gmail.com'
         git add README.md
         git commit -m "Update README with progress"
-        git push
+        git push https://${GH_PAT}@${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}.git HEAD:${GITHUB_REF_NAME}
+
