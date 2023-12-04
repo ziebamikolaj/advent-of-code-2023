@@ -23,12 +23,11 @@ jobs:
     - name: Run Python script to update README
       run: python updateReadme.py
 
-    - name: Commit and Push changes
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}  # Use the secret token
+    - name: Commit and push if changes
       run: |
         git config --global user.name 'ziebamikolaj'
         git config --global user.email 'ziebamikolaj03@gmail.com'
-        git add README.md
-        git commit -m "Update README with progress"
-        git push https://github.com/ziebamikolaj/advent-of-code-2023.git HEAD:${{ github.ref }}
+        git add -A
+        git diff --staged --quiet || (git commit -m "Update README with Python script changes"; git push)
+      env:
+        GITHUB_TOKEN: ${{ secrets.GH_PAT }}
