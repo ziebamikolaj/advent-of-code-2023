@@ -1,0 +1,30 @@
+name: Update README
+
+on:
+  push:
+    paths:
+      - '**.cs'
+      - '!README.md'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Run script to update README
+        run: |
+          python path/to/your/script.py
+
+      - name: Commit and push if README changed
+        run: |
+          git config --global user.email "ziebamikolaj03@gmail.com"
+          git diff
+          git commit -am "Update README with progress" || echo "No changes to commit"
+          git push
