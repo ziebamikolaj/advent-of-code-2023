@@ -15,7 +15,7 @@ AdventOfCode.csproj
 AdventOfCode.sln
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
-
+App.config
 # Mono auto generated files
 mono_crash.*
 DayX.cs
