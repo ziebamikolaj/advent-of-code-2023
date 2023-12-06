@@ -182,7 +182,7 @@ namespace AdventOfCode
         }
         public static void ShowResults()
         {
-            var fileContent = File.ReadAllText("../../day4input.txt");
+            var fileContent = File.ReadAllText("../../Day4/day4input.txt");
             var cardsPart1 = Part1.Card.GetCards(fileContent);
             var cardsPart2 = Part2.Card.GetCards(fileContent);
             Console.WriteLine("Day 4:");

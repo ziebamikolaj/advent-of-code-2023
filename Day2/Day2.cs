@@ -130,7 +130,7 @@ namespace AdventOfCode
         }
         public static void ShowResults()
         {
-            var fileContent = File.ReadAllText("../../day2input.txt");
+            var fileContent = File.ReadAllText("../../Day2/day2input.txt");
             List<Game> games = Game.GetGamesFromInput(fileContent);
             Console.WriteLine("Day 2:");
             Console.WriteLine("First part:");

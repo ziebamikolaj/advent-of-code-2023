@@ -29,7 +29,7 @@ Follow my coding journey on [GitHub](https://github.com/ziebamikolaj). Happy cod
 completed_count = 0
 progress_rows = []
 for i in range(1, 26):  # Assuming 25 days in Advent of Code
-    day_file = f"Day{i}.cs"
+    day_file = f"Day{i}/Day{i}.cs"
     file_exists = os.path.isfile(day_file)
     status_badge = "![Completed](https://img.shields.io/badge/Day%20{}-Completed-green)".format(i) if file_exists else "![Incomplete](https://img.shields.io/badge/Day%20{}-Incomplete-red)".format(i)
     solution_link = f"[🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/{day_file})" if file_exists else "⏳ In Progress"

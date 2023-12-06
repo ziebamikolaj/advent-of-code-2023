@@ -64,7 +64,7 @@ namespace AdventOfCode
         }
         public static void ShowResults()
         {
-            var fileContent = File.ReadAllText("../../day1input.txt");
+            var fileContent = File.ReadAllText("../../Day1/day1input.txt");
             Console.WriteLine("Day 1:");
             FirstPart(fileContent);
             SecondPart(fileContent);

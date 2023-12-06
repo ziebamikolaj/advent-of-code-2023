@@ -161,7 +161,7 @@ namespace AdventOfCode
         }
         public static void ShowResults()
         {
-            var fileContent = File.ReadAllText("../../day3input.txt");
+            var fileContent = File.ReadAllText("../../Day3/day3input.txt");
             EngineSchematic engineSchematic = new EngineSchematic(fileContent);
             Console.WriteLine("Day 3:");
             Console.WriteLine("First part:");
