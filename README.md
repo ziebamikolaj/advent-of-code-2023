@@ -5,17 +5,17 @@
 
 ## 🚀 Progress Overview
 
-📊 Progress: **4 out of 25 challenges completed!**
+📊 Progress: **5 out of 25 challenges completed!**
 
-![Progress](https://progress-bar.dev/16/?title=Completed&width=300)
+![Progress](https://progress-bar.dev/20/?title=Completed&width=300)
 
 | Day | Status | Solution |
 |:---:|:------:|:--------:|
-| Day 1 | ![Completed](https://img.shields.io/badge/Day%201-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day1.cs) |
-| Day 2 | ![Completed](https://img.shields.io/badge/Day%202-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day2.cs) |
-| Day 3 | ![Completed](https://img.shields.io/badge/Day%203-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day3.cs) |
-| Day 4 | ![Completed](https://img.shields.io/badge/Day%204-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day4.cs) |
-| Day 5 | ![Incomplete](https://img.shields.io/badge/Day%205-Incomplete-red) | ⏳ In Progress |
+| Day 1 | ![Completed](https://img.shields.io/badge/Day%201-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day1/Day1.cs) |
+| Day 2 | ![Completed](https://img.shields.io/badge/Day%202-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day2/Day2.cs) |
+| Day 3 | ![Completed](https://img.shields.io/badge/Day%203-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day3/Day3.cs) |
+| Day 4 | ![Completed](https://img.shields.io/badge/Day%204-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day4/Day4.cs) |
+| Day 5 | ![Completed](https://img.shields.io/badge/Day%205-Completed-green) | [🔗 Solution](https://github.com/ziebamikolaj/advent-of-code-2023/blob/main/Day5/Day5.cs) |
 | Day 6 | ![Incomplete](https://img.shields.io/badge/Day%206-Incomplete-red) | ⏳ In Progress |
 | Day 7 | ![Incomplete](https://img.shields.io/badge/Day%207-Incomplete-red) | ⏳ In Progress |
 | Day 8 | ![Incomplete](https://img.shields.io/badge/Day%208-Incomplete-red) | ⏳ In Progress |
